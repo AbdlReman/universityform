@@ -1,8 +1,11 @@
-# React + Vite
+State Management: It uses the useState hook to maintain two pieces of state:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+data: Stores the form **multiple** input values as an object with properties like firstname, lastname, etc.
+todosList: Keeps track of a list of admission form data submitted.
 
-Currently, two official plugins are available:
+The Todo component manages an admission form in React, capturing user input for various details like name, address, and contact information. It stores each entry in a list upon submission, displaying all submitted form data below the form itself for review.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+
+
